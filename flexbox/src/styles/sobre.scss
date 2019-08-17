@@ -1,0 +1,31 @@
+@import "./base.scss";
+
+.sobre {
+  border-top: 2px solid $colorPrim1;
+  border-bottom: 2px solid $colorPrim1;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 0;
+  display: flex;
+  flex-wrap: wrap;
+
+  .sobre-info {
+    // flex: grow shrink basis
+    flex: 2 1 300px;
+    margin: 0 10px;
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.5em;
+    }
+    p {
+      font-size: 1.25em;
+      line-height: 1.4;
+      margin-bottom: 1em;
+      color: $colorText3;
+    }
+  }
+  .sobre-img {
+    flex: 1 1 160px;
+    margin: 0 10px;
+  }
+}

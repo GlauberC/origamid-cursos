@@ -1,0 +1,25 @@
+$colorPrim1: #2c70ff;
+$colorPrim2: #122ab2;
+$colorSec1: #ffffff;
+$colorSec2: #f7f7f7;
+$colorText1: #ffffff;
+$colorText2: #222222;
+$colorText3: #7c7c7c;
+
+body {
+  font-family: "Nunito", Helvetica, sans-serif;
+  color: $colorText2;
+
+  img {
+    display: block;
+    max-width: 100%;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  &:visited {
+    color: black;
+  }
+}

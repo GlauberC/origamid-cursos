@@ -1,0 +1,42 @@
+@import "./base.scss";
+
+.menu-bg {
+  background: $colorPrim1;
+}
+
+.menu {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  a {
+    color: $colorText1;
+  }
+
+  .menu-logo {
+    font-size: 2.25em;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+
+  nav {
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+
+      a {
+        font-size: 1.25em;
+        padding: 10px;
+        display: inline-block;
+
+        &:hover {
+          color: $colorPrim2;
+        }
+      }
+    }
+  }
+}
