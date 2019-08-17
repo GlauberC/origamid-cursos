@@ -1,4 +1,6 @@
 import React from "react";
+import "../styles/qualidade.scss";
+
 export default () => {
   return (
     <section className="qualidade" id="qualidade">
